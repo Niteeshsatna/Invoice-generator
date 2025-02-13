@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  position: relative;
+  // min-height: 100vh;
+}
+
+.Invoice-CTA{
+ 
+  background:url("/images/invo-CTA.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+ 
+ 
+  @media (min-width: 768px) {
+    
+      height: 220vh;
+}
+ 
+  
+  
+}
